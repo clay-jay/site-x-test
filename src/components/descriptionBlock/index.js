@@ -1,9 +1,6 @@
 import React from "react"
 import { Divider, Typography } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
-import Grid from "@material-ui/core/Grid"
-import DeliveryIcon from "../../images/deliveryIcon.svg"
-import DeliveryCards from "../delivery"
 import "@fontsource/inter"
 
 const useStyles = makeStyles({
@@ -36,7 +33,6 @@ const useStyles = makeStyles({
   divider: {
     backgroundColor: "#BDBDC6",
     margin: "0 16px 16px 16px",
-
   },
 })
 

@@ -4,14 +4,13 @@ import DeliveryCard from "./deliveryCard.js"
 import { makeStyles } from "@material-ui/core/styles"
 
 const useStyles = makeStyles({
-    root:{
-        margin: "0px",
-        width: "100%",
-    },
-
+  root: {
+    margin: "0px",
+    width: "100%",
+  },
 })
 export default function DeliveryCards() {
-    const classes = useStyles()
+  const classes = useStyles()
   return (
     <>
       <Grid container spacing="4" className={classes.root}>

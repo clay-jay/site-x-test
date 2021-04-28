@@ -57,7 +57,6 @@ const useStyles = makeStyles({
     background: "-webkit-linear-gradient(#291AD5, #681DE1)",
     "-webkit-background-clip": "text",
     "-webkit-text-fill-color": "transparent",
-    //backgroundImage: "linear-gradient(#291AD5, #681DE1)",
     display: "inline-block",
     marginLeft: "10px",
   },
@@ -65,12 +64,6 @@ const useStyles = makeStyles({
     display: "inline-block",
     color: "#5A5A5A",
   },
-
-// <stop stop-color="#291AD5"/>
-// <stop offset="1" stop-color="#681DE1"/>
-/* Срок доставки: */
-
-
 })
 
 export default function DeliveryCard(props) {
